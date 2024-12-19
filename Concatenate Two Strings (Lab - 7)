@@ -1,0 +1,17 @@
+Objective-
+To conactenate two strings.
+Task-
+Create the following function -
+
+1)concatenate ( ) - This function will take two arguments i.e string 1 and string 2. 
+  It will concatenate string 1 and string 2 and will return the concatenated string.
+
+  Solution:
+  // SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+contract demo {
+    function concatenate(string memory a, string memory b) public pure returns (string memory) {
+        return string.concat(a,b);
+    }
+}

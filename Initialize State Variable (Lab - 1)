@@ -1,0 +1,12 @@
+
+Task -
+To complete this challenge, you have to create a public state variable num and initialized it with 10;
+
+Solution:
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+contract demo {
+uint256 public  num=10;
+    
+}

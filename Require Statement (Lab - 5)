@@ -1,0 +1,17 @@
+Task
+To complete this challenge, do the following.
+Create a checkInput (uint input).
+Check whether the input is greater than equal to zero and less than equal to 255. If input is within range then return "Within Range" otherwise throw error "Not Within Range".
+
+Solution:
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+contract demo {
+    // Function to check whether the input is within the specified range
+    function checkInput(int input) public pure returns (string memory) {
+        require(input >= 0 && input <= 255, "Not Within Range");
+        return "Within Range";
+    }
+}
+

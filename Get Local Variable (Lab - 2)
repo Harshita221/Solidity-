@@ -1,0 +1,14 @@
+Task -
+To complete this challenge, you have to create a local variable rollNumber and initialized it with 10 using a function getLocal() . This getLocal( ) also returns the value the local variable.
+Solution:
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+contract demo {
+function getLocal() public pure returns (uint256) {
+        // Declare and initialize a local variable
+        uint256 rollNumber = 10;
+        // Return the value of the local variable
+        return rollNumber;
+    }
+}
